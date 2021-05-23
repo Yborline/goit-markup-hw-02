@@ -61,7 +61,7 @@ body {
 .contact-nav .link {
   color: var(--tell-color);
 }
-nav .list {
+.navigation .list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
