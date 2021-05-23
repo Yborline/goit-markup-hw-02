@@ -7,7 +7,7 @@
   --mainbackgraund-color: #e5e5e5;
   --contacts-color: rgba(255, 255, 255, 0.6);
   --portfolio-color: #f5f4fa;
-  --text-family: "Roboto", sans-serif;
+  --black-color: #000000;
 }
 * {
   padding: 0;
@@ -15,12 +15,9 @@
 }
 /* Основные стили */
 body {
-  /* font-family: "Raleway", sans-serif; */
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   background-color: var(--white-color);
   color: var(--main-text-color);
-  font-weight: normal;
 }
 .link {
   color: inherit;
@@ -40,7 +37,7 @@ body {
 }
 .logo {
   font-family: Raleway;
-  color: #000000;
+  color: var(--black-color);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
@@ -50,7 +47,12 @@ body {
   color: var(--blue-color);
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link:active {
+  color: var(--blue-color);
+}
+.site-nav .portfolio:visited,
+.site-nav .studio:visited {
   color: var(--blue-color);
 }
 
@@ -84,9 +86,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+/* Hero block */
 /* Buttons */
 .button-color {
-  font-family: var(--text-family);
+  font-family: "Roboto", sans-serif;
   background-color: var(--blue-color);
   color: var(--white-color);
   font-size: 16px;
@@ -121,7 +124,6 @@ body {
 
 /* Преимущество  */
 .tittle-advantage {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
@@ -174,7 +176,6 @@ body {
   box-sizing: border-box;
 }
 .pro-tittle {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
