@@ -121,14 +121,14 @@ nav .list {
 .tittle-advantage {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .text-section {
   color: var(--tell-color);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.715;
   letter-spacing: 0.03em;
   font-weight: 400;
 }
@@ -136,7 +136,7 @@ nav .list {
 .block-tittle {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -148,8 +148,9 @@ nav .list {
 .name-worker {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.188;
   /* text-align: center; */
+  line-height: 1.188;
+  padding: 30px 0px 10px;
   letter-spacing: 0.03em;
 }
 .profession {
@@ -158,6 +159,7 @@ nav .list {
   /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--tell-color);
+  padding: 10px 0px 30px;
   font-weight: normal;
 }
 
@@ -202,11 +204,19 @@ nav .list {
   font-size: 14px;
   line-height: 1.411;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .contacts {
   color: var(--contacts-color);
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.714;
   letter-spacing: 0.03em;
+  text-decoration: none;
+  font-style: normal;
+}
+.contacts:focus,
+.contacts:hover {
+  color: var(--blue-color);
 }
 /* footer */
